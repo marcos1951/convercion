@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>
+PROGRAMA DE CONVERCION
+</title>
+</head>
+<body>
+
+<?php
+$dolar=10;
+$peso=12.98;
+$pesos = $dolar * $peso;
+
+echo"DOLARES =10<br>";
+echo"VALOR DEL PESO MEX. = 12.98<br>";
+echo"<br>EL RESULTADO DE LA CONVERCION DE DOLAR A PESOS MEX.ES:<br>";
+echo $pesos;
+?>
+<form> 
+<input type="button" value="convercion"> 
+</form> 
+</body>
+</html>
